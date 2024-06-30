@@ -17,34 +17,34 @@
   </head>
   <body>
     <div class="shop4">
-      <b class="tbd7" id="tBDText">TBD</b>
-      <div class="nav-bar-frame">
-        <nav class="nav-bar2">
-          <div class="home3" id="homeContainer">
-            <a class="home4">Home</a>
+      <section class="navigation3">
+        <nav class="nav-bar5">
+          <div class="home9" id="homeContainer">
+            <a class="home10">Home</a>
           </div>
           <div class="music3" id="musicContainer">
             <a class="music4">Music</a>
           </div>
           <a class="bag">Bag</a>
         </nav>
-      </div>
-      <section class="shop-inner">
-        <div class="frame-container">
-          <div class="tbd-shop-wrapper">
-            <h1 class="tbd-shop">TBD SHOP</h1>
+      </section>
+      <b class="tbd5" id="tBDText">TBD</b>
+      <section class="content2">
+        <div class="main-content1">
+          <h1 class="tbd-shop">TBD SHOP</h1>
+          <div class="website-info">
+            <h1 class="test-website-not1">
+              TEST WEBSITE! NOT OFFICIAL, TESTING LIMITATIONS
+            </h1>
           </div>
-          <h1 class="test-website-not2">
-            TEST WEBSITE! NOT OFFICIAL, TESTING LIMITATIONS
-          </h1>
         </div>
       </section>
-      <div class="frame-div">
-        <div class="join-wrapper">
-          <b class="join2">Join</b>
+      <div class="footer2">
+        <div class="join-frame">
+          <b class="join3" id="joinText">Join</b>
         </div>
-        <b class="klandus2">@ 2024 Kélandus</b>
-        <div class="terms-group">
+        <b class="klandus3">@ 2024 Kélandus</b>
+        <div class="legal1">
           <b class="terms2">Terms</b>
           <b class="privacy2">Privacy</b>
         </div>
@@ -52,17 +52,10 @@
     </div>
 
     <script>
-      var tBDText = document.getElementById("tBDText");
-      if (tBDText) {
-        tBDText.addEventListener("click", function (e) {
-          window.location.href = "./shop.html";
-        });
-      }
-      
       var homeContainer = document.getElementById("homeContainer");
       if (homeContainer) {
         homeContainer.addEventListener("click", function (e) {
-          window.location.href = "./index.html";
+          window.location.href = "./home.html";
         });
       }
       
@@ -70,6 +63,20 @@
       if (musicContainer) {
         musicContainer.addEventListener("click", function (e) {
           window.location.href = "./music.html";
+        });
+      }
+      
+      var tBDText = document.getElementById("tBDText");
+      if (tBDText) {
+        tBDText.addEventListener("click", function (e) {
+          window.location.href = "./shop.html";
+        });
+      }
+      
+      var joinText = document.getElementById("joinText");
+      if (joinText) {
+        joinText.addEventListener("click", function (e) {
+          window.location.href = "./join.html";
         });
       }
       </script>
